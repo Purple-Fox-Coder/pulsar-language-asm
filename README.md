@@ -5,6 +5,9 @@ General purpose syntax highlighting for assembly.
 You may also be interested in:
 https://packages.pulsar-edit.dev/packages/language-x86asm
 
+There is also https://packages.pulsar-edit.dev/packages/language-asm
+This one is simply on modern tree sitter and made for pulsar
+
 ## Usage
 
 Simply open any ``.asm``, ``.s``, or ``.S`` file in pulsar after installing the package

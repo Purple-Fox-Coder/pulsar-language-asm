@@ -1,5 +1,5 @@
 {
-  "name": "language-asm",
+  "name": "pulsar-language-asm",
   "version": "1.0.0",
   "description": "Modern-Tree-Sitter generic assembly support.",
   "keywords": [
@@ -13,7 +13,7 @@
     ".s",
     ".asm"
   ],
-  "repository": "https://github.com/Purple-Fox-Coder/language-asm",
+  "repository": "https://github.com/Purple-Fox-Coder/pulsar-language-asm",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
