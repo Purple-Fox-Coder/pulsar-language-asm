@@ -1,6 +1,6 @@
 {
   "name": "language-asm",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Modern-Tree-Sitter generic assembly support.",
   "keywords": [
     "language",
