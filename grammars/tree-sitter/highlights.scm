@@ -12,6 +12,11 @@
 (instruction
   kind: (_) @entity.name.function.asm)
 
+(instruction
+  kind:  (word) @keyword.control.asm
+  (ident) @support.other.namespace.asm
+  (#eq? @keyword.control.asm "section"))
+
 (const
   name: (word) @constant.numeric.asm)
 
