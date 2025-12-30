@@ -1,0 +1,26 @@
+{
+  "name": "language-asm",
+  "version": "0.0.0",
+  "description": "Modern-Tree-Sitter generic assembly support.",
+  "keywords": [
+    "language",
+    "grammar",
+    "asm",
+    "tree",
+    "sitter",
+    "pulsar",
+    "assembly",
+    ".s",
+    ".asm"
+  ],
+  "repository": "https://github.com/Purple-Fox-Coder/language-asm",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.25.10",
+    "web-tree-sitter": "^0.25.3",
+    "tree-sitter-asm": "git+https://github.com/RubixDev/tree-sitter-asm.git"
+  }
+}

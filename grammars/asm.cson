@@ -1,0 +1,20 @@
+# https://docs.pulsar-edit.dev/developing-for-pulsar/creating-a-grammar-modern-tree-sitter/#the-package
+
+name: 'Assembly'
+scopeName: 'source.asm'
+type: 'modern-tree-sitter'
+parser: 'tree-sitter-asm'
+# NOTE: There are a LOT of potential options here, for simplicity I'm only going
+#       to specifically include ones I know of that are *common* for assembly do
+#       not send a pull request for misc filetypes that are not common.
+#       If you want a filetype not listed here to be recognized by pulsar you may
+#       follow the docs here https://docs.pulsar-edit.dev/customizing-pulsar/customizing-language-recognition/
+fileTypes: [ 'asm', 's', 'S' ]
+treeSitter:
+    grammar: 'tree-sitter/grammar.wasm'
+    highlightsQuery: 'tree-sitter/highlights.scm'
+    foldsQuery: 'tree-sitter/folds.scm'
+    indentsQuery: 'tree-sitter/indents.scm'
+comments:
+    start: '; '
+    line: ';'
